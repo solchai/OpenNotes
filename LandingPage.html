@@ -7,13 +7,28 @@
     <link rel="stylesheet" href="src/notion.css">
 </head>
 <body>
-    <div class="landingPanel">
-        <div class="chalkBoardBackground" style="background-image: url(assets/chalkBoard.png);"></div>
+    <div style="position:relative;
+    z-index: 1;
+    min-height:100%;
+    border:3px;
+    border-color:#fff;
+    border-style:solid;
+    min-width: 100px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding:5px;
+    display:block;
+    overflow-x:scroll;">
 
+    <div class="landingPanel">
         <div class="logoContainer">
             <img src="assets/openclasslogo.PNG">
-            <h1>Open Notes</h1>
+            <h1 class="logoFont">Open Notes</h1>
         </div>
+        
+        <div class="chalkBoardBackground" style="background-image: url(assets/chalkBoard.png);"></div>
+
+        
     </div>
 </body>
 </html>

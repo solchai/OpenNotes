@@ -295,7 +295,7 @@ th {
 }
 
 .chalkBoardBackground {
-  height: 100%;
+  height: auto;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -303,15 +303,16 @@ th {
 }
 
 .logoContainer {
-  position: absolute;
-  /*force elment to be some where*/
-  top: 0;
   display: flex;
-  align-items: center;
-  /*vertical alignment*/
+}
 
-  height: auto;
+.logoContainer img {
+  height: 80px;
+  object-fit: scale-down;
+}
+
+.logoFont {
   width: 100%;
-  text-align: center;
+  font-size: 30px !important;
   padding-left: 10px;
 }
