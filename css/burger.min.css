@@ -1,5 +1,5 @@
 body.open,
-.sideBar:after {
+.sideBar:after {/* change .sideBar to body for original*/
 	overflow: hidden
 }
 
