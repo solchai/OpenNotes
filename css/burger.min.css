@@ -1,10 +1,10 @@
 body.open,
-body:after {
+.sideBar:after {
 	overflow: hidden
 }
 
 .b-nav,
-body:after {
+.sideBar:after {
 	position: absolute
 }
 
@@ -69,8 +69,8 @@ body:after {
 	box-sizing: border-box
 }
 
-body:after {
-	background: #ffffff;
+.sideBar:after {
+	background: #6b4f4f;
 	content: '';
 	height: 100%;
 	left: 0;
@@ -83,7 +83,7 @@ body:after {
 	width: 100%
 }
 
-body.open:after {
+.sideBar.open:after {
 	opacity: 1;
 	visibility: visible
 }
