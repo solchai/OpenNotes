@@ -295,11 +295,11 @@ th {
 }
 
 .chalkBoardBackground {
-  height: auto;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: scale-down;
 }
 
 .logoContainer {
@@ -315,4 +315,39 @@ th {
   width: 100%;
   font-size: 30px !important;
   padding-left: 10px;
+}
+
+.intro {
+  padding-top: 40px;
+}
+
+.backgroundPic {
+  padding-top: 50px;
+}
+
+.githubLoginForm {
+  /*do somethnng to round up the text box edges*/
+}
+
+.loginPrompt {
+  padding: 20px;
+}
+
+.loginPrompt b {
+  font-size: 30px !important;
+}
+
+.loginImages {
+  display: flex;
+}
+
+.loginImages img{
+  height: 150px;
+  object-fit: scale-down;
+}
+
+.loginContainer {
+  padding-left: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
